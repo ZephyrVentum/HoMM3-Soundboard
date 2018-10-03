@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HoMM3-Soundboard.iml" filepath="$PROJECT_DIR$/HoMM3-Soundboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Soundboard-Template/HoMM3-Soundboard-soundboard-template.iml" filepath="$PROJECT_DIR$/Soundboard-Template/HoMM3-Soundboard-soundboard-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HOMM3-Soundboard.iml" filepath="$PROJECT_DIR$/HOMM3-Soundboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Soundboard-Template/HOMM3-Soundboard-soundboard-template.iml" filepath="$PROJECT_DIR$/Soundboard-Template/HOMM3-Soundboard-soundboard-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/Soundboard-Template/soundboard-template/soundboard-template-soundboard-template.iml" filepath="$PROJECT_DIR$/Soundboard-Template/soundboard-template/soundboard-template-soundboard-template.iml" />
     </modules>
