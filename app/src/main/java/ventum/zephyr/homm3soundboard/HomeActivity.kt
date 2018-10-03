@@ -1,12 +1,11 @@
 package ventum.zephyr.homm3soundboard
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
+import ventum.zephyr.soundboardtemplate.model.SoundboardCategory
+import ventum.zephyr.soundboardtemplate.ui.SoundboardActivity
+import java.util.*
 
-class HomeActivity : AppCompatActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+class HomeActivity : SoundboardActivity() {
+    override fun getSoundboardCategories(): ArrayList<SoundboardCategory> {
+        return ArrayList()
     }
 }
