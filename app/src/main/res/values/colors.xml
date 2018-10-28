@@ -8,7 +8,7 @@
     <!--Secondary colors-->
     <color name="item_image_mask_color">#50000000</color>
     <color name="item_image_border_color">@color/colorAccent</color>
-    <color name="item_text_color">@android:color/black</color>
+    <color name="item_text_color">@android:color/white</color>
     <color name="ripple_effect_color">#78ffffff</color>
     <color name="toolbar_items_color">@android:color/white</color>
 </resources>

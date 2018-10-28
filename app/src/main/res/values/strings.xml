@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">HoMM3 Soundboard</string>
+    <!-- Categories -->
+    <string name="spell_category">Spell</string>
+    <string name="game_category">Game</string>
+    <string name="battle_category">Battle</string>
+    <!--Spells-->
+    <string name="blind_spell">Blind</string>
+    <!--Game-->
+    <string name="defend_town">Defend</string>
+    <string name="lvl_up">Level Up</string>
+    <string name="victory_battle">Victory</string>
+    <!--Battle-->
 </resources>
