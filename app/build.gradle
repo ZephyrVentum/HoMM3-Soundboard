@@ -17,8 +17,12 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug{
+            debuggable true
+        }
         release {
             minifyEnabled false
+            resValue "string", "admob_app_id", "ca-app-pub-9581992838845527~8791449735"
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
