@@ -12,6 +12,7 @@
     <string name="defend_town">Defend</string>
     <string name="lvl_up">Level Up</string>
     <string name="victory_battle">Victory</string>
+    <string name="build_town">Build</string>
     <!--Battle-->
     <string name="bad_morale">Dismoral</string>
     <string name="battle_one">Battle 1</string>

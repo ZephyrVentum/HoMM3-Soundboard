@@ -81,9 +81,13 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.lvl_up,
                 R.string.lvl_up,
                 soundPool.load(this@HomeActivity, R.raw.lvl_up, 1)))
+        add(SoundItem(R.drawable.build_town,
+                R.raw.build_town_sound,
+                R.string.build_town,
+                soundPool.load(this@HomeActivity, R.raw.build_town_sound, 1)))
     })
 
-    override fun getSoundPoolUsage() = USAGE_UNKNOWN
+    override fun getSoundPoolUsage() = USAGE_MEDIA
 
-    override fun getSoundPoolContentType() = CONTENT_TYPE_MOVIE
+    override fun getSoundPoolContentType() = CONTENT_TYPE_MUSIC
 }
