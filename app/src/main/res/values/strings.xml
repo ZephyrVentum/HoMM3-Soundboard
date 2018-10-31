@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">HoMM3 Soundboard</string>
+    <string name="rate_us_market">market://details?id=ventum.zephyr.homm3soundboard</string>
+    <string name="share_text">Look at this fun! The best Heroes of Might and Magic 3 soundboard ever!\nhttps://github.com/ZephyrVentum/HoMM3-Soundboard</string>
     <!-- Categories -->
     <string name="spell_category">Spell</string>
     <string name="game_category">Game</string>
@@ -13,6 +15,7 @@
     <string name="lvl_up">Level Up</string>
     <string name="victory_battle">Victory</string>
     <string name="build_town">Build</string>
+    <string name="mill">Mill</string>
     <!--Battle-->
     <string name="bad_morale">Dismoral</string>
     <string name="battle_one">Battle 1</string>
