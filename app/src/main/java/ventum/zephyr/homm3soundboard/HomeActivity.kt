@@ -85,6 +85,10 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.build_town_sound,
                 R.string.build_town,
                 soundPool.load(this@HomeActivity, R.raw.build_town_sound, 1)))
+        add(SoundItem(R.drawable.mill,
+                R.raw.mill_sound,
+                R.string.mill,
+                soundPool.load(this@HomeActivity, R.raw.mill_sound, 1)))
     })
 
     override fun getSoundPoolUsage() = USAGE_MEDIA
