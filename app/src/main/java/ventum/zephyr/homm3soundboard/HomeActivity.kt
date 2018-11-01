@@ -26,6 +26,10 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.blind_sound,
                 R.string.blind_spell,
                 soundPool.load(this@HomeActivity, R.raw.blind_sound, 1)))
+        add(SoundItem(R.drawable.curse,
+                R.raw.curse_sound,
+                R.string.curse_spell,
+                soundPool.load(this@HomeActivity, R.raw.curse_sound, 1)))
     })
 
    private fun createBattleCategory() = SoundboardCategory(getString(R.string.battle_category), SoundItems().apply {

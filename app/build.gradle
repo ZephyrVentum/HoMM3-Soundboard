@@ -7,22 +7,25 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
+    def version = 2
     compileSdkVersion 28
     defaultConfig {
         applicationId "ventum.zephyr.homm3soundboard"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode version
+        versionName "$version"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         debug{
+            applicationIdSuffix ".debug"
             debuggable true
         }
         release {
+            debuggable false
             minifyEnabled false
-            resValue "string", "admob_app_id", "ca-app-pub-9581992838845527~8791449735"
+            resValue "string", "admob_app_id", "ca-app-pub-9581992838845527~2499787712"
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
