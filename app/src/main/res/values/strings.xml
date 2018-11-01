@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">HoMM3 Soundboard</string>
     <string name="rate_us_market">market://details?id=ventum.zephyr.homm3soundboard</string>
+    <string name="admob_banner_unit_id">ca-app-pub-9581992838845527/4656969778</string>
+    <string name="admob_interstitial_unit_id">ca-app-pub-9581992838845527/4820621300</string>
     <string name="share_text">Look at this fun! The best Heroes of Might and Magic 3 soundboard ever!\nhttps://github.com/ZephyrVentum/HoMM3-Soundboard</string>
     <!-- Categories -->
     <string name="spell_category">Spell</string>
@@ -10,6 +12,7 @@
     <string name="blind_spell">Blind</string>
     <string name="bloodlust_speel">Bloodlust</string>
     <string name="antimagic_spell">Anti-magic</string>
+    <string name="curse_spell">Curse</string>
     <!--Game-->
     <string name="defend_town">Defend</string>
     <string name="lvl_up">Level Up</string>
