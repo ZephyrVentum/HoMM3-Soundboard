@@ -3,11 +3,12 @@
     <string name="rate_us_market">market://details?id=ventum.zephyr.homm3soundboard</string>
     <string name="admob_banner_unit_id">ca-app-pub-9581992838845527/4656969778</string>
     <string name="admob_interstitial_unit_id">ca-app-pub-9581992838845527/4820621300</string>
-    <string name="share_text">Look at this fun! The best Heroes of Might and Magic 3 soundboard ever!\nhttps://github.com/ZephyrVentum/HoMM3-Soundboard</string>
+    <string name="share_text">Look at this fun! The best Heroes of Might and Magic 3 soundboard ever!\nhttps://play.google.com/store/apps/details?id=ventum.zephyr.homm3soundboard</string>
     <!-- Categories -->
     <string name="spell_category">Spell</string>
-    <string name="game_category">Game</string>
     <string name="battle_category">Battle</string>
+    <string name="map_category">Map</string>
+    <string name="game_category">Game</string>
     <!--Spells-->
     <string name="blind_spell">Blind</string>
     <string name="bloodlust_speel">Bloodlust</string>
@@ -17,13 +18,18 @@
     <string name="dispel">Dispel</string>
     <string name="disrupting_ray">Disrupting Ray</string>
     <string name="fortune">Fortune</string>
+    <string name="resurrection">Resurrection</string>
     <!--Game-->
     <string name="defend_town">Defend</string>
     <string name="lvl_up">Level Up</string>
     <string name="victory_battle">Victory</string>
     <string name="build_town">Build</string>
-    <string name="mill">Mill</string>
+    <string name="new_day">New Day</string>
+    <string name="new_week">New Week</string>
+    <string name="new_month">New Month</string>
     <string name="chat">Chat</string>
+    <string name="system">System</string>
+    <string name="mill">Mill</string>
     <string name="whirlpool">Whirlpool</string>
     <string name="dragon_utopia">Dragon Utopia</string>
     <string name="faerie_ring">Faerie Ring</string>
@@ -33,6 +39,17 @@
     <string name="lighthouse">Lighthouse</string>
     <string name="lepricon">Lepricon</string>
     <string name="idol_of_fortune">Idol of Fortune</string>
+    <string name="refugee_camp">Refugee Camp</string>
+    <string name="crypt">Crypt</string>
+    <string name="fountain_of_youth">Fountain of Youth</string>
+    <string name="mercenary_camp">Mercenary Camp</string>
+    <string name="obelisk">Obelisk</string>
+    <string name="quest">Quest</string>
+    <string name="resources">Resources</string>
+    <string name="guarded">Guarded</string>
+    <string name="temple">Temple</string>
+    <string name="artifact">Artifact</string>
+    <string name="grail">Grail</string>
     <!--Battle-->
     <string name="bad_morale">Dismoral</string>
     <string name="good_morale">Morale</string>
