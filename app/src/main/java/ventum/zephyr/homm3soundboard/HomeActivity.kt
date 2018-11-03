@@ -30,6 +30,22 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.curse_sound,
                 R.string.curse_spell,
                 soundPool.load(this@HomeActivity, R.raw.curse_sound, 1)))
+        add(SoundItem(R.drawable.dimension_door,
+                R.raw.dimension_door_sound,
+                R.string.dimension_door_spell,
+                soundPool.load(this@HomeActivity, R.raw.dimension_door_sound, 1)))
+        add(SoundItem(R.drawable.dispel,
+                R.raw.dispel,
+                R.string.dispel,
+                soundPool.load(this@HomeActivity, R.raw.dispel, 1)))
+        add(SoundItem(R.drawable.disrupting_ray,
+                R.raw.disrupting_ray,
+                R.string.disrupting_ray,
+                soundPool.load(this@HomeActivity, R.raw.disrupting_ray, 1)))
+        add(SoundItem(R.drawable.fortune,
+                R.raw.fortune,
+                R.string.fortune,
+                soundPool.load(this@HomeActivity, R.raw.fortune, 1)))
     })
 
    private fun createBattleCategory() = SoundboardCategory(getString(R.string.battle_category), SoundItems().apply {
@@ -37,6 +53,22 @@ class HomeActivity : SoundboardActivity() {
                R.raw.bad_morale_sound,
                R.string.bad_morale,
                soundPool.load(this@HomeActivity, R.raw.bad_morale_sound, 1)))
+       add(SoundItem(R.drawable.good_morale,
+               R.raw.good_morale,
+               R.string.good_morale,
+               soundPool.load(this@HomeActivity, R.raw.good_morale, 1)))
+       add(SoundItem(R.drawable.luck,
+               R.raw.good_luck,
+               R.string.good_luck,
+               soundPool.load(this@HomeActivity, R.raw.good_luck, 1)))
+       add(SoundItem(R.drawable.death_cloud,
+               R.raw.death_cloud,
+               R.string.death_cloud,
+               soundPool.load(this@HomeActivity, R.raw.death_cloud, 1)))
+       add(SoundItem(R.drawable.fear,
+               R.raw.fear,
+               R.string.fear,
+               soundPool.load(this@HomeActivity, R.raw.fear, 1)))
        add(SoundItem(R.drawable.battle,
                R.raw.battle_one,
                R.string.battle_one,
@@ -69,7 +101,6 @@ class HomeActivity : SoundboardActivity() {
                R.raw.battle_eight,
                R.string.battle_eigth,
                soundPool.load(this@HomeActivity, R.raw.battle_eight, 1)))
-
    })
 
     private fun createGameCategory() = SoundboardCategory(getString(R.string.game_category), SoundItems().apply {
@@ -93,6 +124,46 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.mill_sound,
                 R.string.mill,
                 soundPool.load(this@HomeActivity, R.raw.mill_sound, 1)))
+        add(SoundItem(R.drawable.chat,
+                R.raw.chat_sound,
+                R.string.chat,
+                soundPool.load(this@HomeActivity, R.raw.chat_sound, 1)))
+        add(SoundItem(R.drawable.whirlpool,
+                R.raw.whirlpool_sound,
+                R.string.whirlpool,
+                soundPool.load(this@HomeActivity, R.raw.whirlpool_sound, 1)))
+        add(SoundItem(R.drawable.dragon_utopia,
+                R.raw.dragon_utopia,
+                R.string.dragon_utopia,
+                soundPool.load(this@HomeActivity, R.raw.dragon_utopia, 1)))
+        add(SoundItem(R.drawable.faerie_ring,
+                R.raw.faerie_ring,
+                R.string.faerie_ring,
+                soundPool.load(this@HomeActivity, R.raw.faerie_ring, 1)))
+        add(SoundItem(R.drawable.magic_well,
+                R.raw.magic_well,
+                R.string.magic_well,
+                soundPool.load(this@HomeActivity, R.raw.magic_well, 1)))
+        add(SoundItem(R.drawable.mine,
+                R.raw.flag_mine,
+                R.string.flag_mine,
+                soundPool.load(this@HomeActivity, R.raw.flag_mine, 1)))
+        add(SoundItem(R.drawable.learning_stone,
+                R.raw.learning_stone,
+                R.string.learning_stone,
+                soundPool.load(this@HomeActivity, R.raw.learning_stone, 1)))
+        add(SoundItem(R.drawable.lighthouse,
+                R.raw.lighthouse,
+                R.string.lighthouse,
+                soundPool.load(this@HomeActivity, R.raw.lighthouse, 1)))
+        add(SoundItem(R.drawable.lepricon,
+                R.raw.lepricon,
+                R.string.lepricon,
+                soundPool.load(this@HomeActivity, R.raw.lepricon, 1)))
+        add(SoundItem(R.drawable.idol_of_fortune,
+                R.raw.idol_of_fortune,
+                R.string.idol_of_fortune,
+                soundPool.load(this@HomeActivity, R.raw.idol_of_fortune, 1)))
     })
 
     override fun getSoundPoolUsage() = USAGE_MEDIA

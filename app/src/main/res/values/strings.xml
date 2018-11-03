@@ -13,14 +13,32 @@
     <string name="bloodlust_speel">Bloodlust</string>
     <string name="antimagic_spell">Anti-magic</string>
     <string name="curse_spell">Curse</string>
+    <string name="dimension_door_spell">Dimension Door</string>
+    <string name="dispel">Dispel</string>
+    <string name="disrupting_ray">Disrupting Ray</string>
+    <string name="fortune">Fortune</string>
     <!--Game-->
     <string name="defend_town">Defend</string>
     <string name="lvl_up">Level Up</string>
     <string name="victory_battle">Victory</string>
     <string name="build_town">Build</string>
     <string name="mill">Mill</string>
+    <string name="chat">Chat</string>
+    <string name="whirlpool">Whirlpool</string>
+    <string name="dragon_utopia">Dragon Utopia</string>
+    <string name="faerie_ring">Faerie Ring</string>
+    <string name="magic_well">Magic Well</string>
+    <string name="flag_mine">Mine</string>
+    <string name="learning_stone">Learning Stone</string>
+    <string name="lighthouse">Lighthouse</string>
+    <string name="lepricon">Lepricon</string>
+    <string name="idol_of_fortune">Idol of Fortune</string>
     <!--Battle-->
     <string name="bad_morale">Dismoral</string>
+    <string name="good_morale">Morale</string>
+    <string name="good_luck">Luck</string>
+    <string name="death_cloud">Death Cloud</string>
+    <string name="fear">Fear</string>
     <string name="battle_one">Battle 1</string>
     <string name="battle_two">Battle 2</string>
     <string name="battle_three">Battle 3</string>
