@@ -52,6 +52,10 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.resurrection,
                 R.string.resurrection,
                 soundPool.load(this@HomeActivity, R.raw.resurrection, 1)))
+        add(SoundItem(R.drawable.bless,
+                R.raw.bless,
+                R.string.bless,
+                soundPool.load(this@HomeActivity, R.raw.bless, 1)))
     })
 
     private fun createBattleCategory() = SoundboardCategory(getString(R.string.battle_category), SoundItems().apply {
