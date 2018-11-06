@@ -6,9 +6,12 @@ apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'kotlin-kapt'
 
+apply plugin: 'com.android.application'
+
 android {
-    def version = 4
+    def version = 5
     compileSdkVersion 28
+
     defaultConfig {
         applicationId "ventum.zephyr.homm3soundboard"
         minSdkVersion 21
@@ -17,8 +20,9 @@ android {
         versionName "1.0.$version"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
-        debug{
+        debug {
             applicationIdSuffix ".debug"
             debuggable true
         }
@@ -29,6 +33,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+        density {
+            enableSplit = true
+        }
+        abi {
+            enableSplit = true
+        }
+    }
+
     dataBinding {
         enabled = true
     }
@@ -36,7 +53,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     annotationProcessor 'com.android.databinding:compiler:3.2.0-alpha10'
     api project(':soundboard-template:soundboard-template')
 
