@@ -1,11 +1,11 @@
 package ventum.zephyr.homm3soundboard
 
-import android.media.AudioAttributes.CONTENT_TYPE_MUSIC
-import android.media.AudioAttributes.USAGE_MEDIA
+import android.media.AudioAttributes.*
 import ventum.zephyr.soundboardtemplate.model.SoundItem
 import ventum.zephyr.soundboardtemplate.model.SoundItems
 import ventum.zephyr.soundboardtemplate.model.SoundboardCategory
 import ventum.zephyr.soundboardtemplate.ui.SoundboardActivity
+import java.util.*
 
 class HomeActivity : SoundboardActivity() {
     override fun getSoundboardCategories() = ArrayList<SoundboardCategory>().apply {
@@ -56,6 +56,10 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.bless,
                 R.string.bless,
                 soundPool.load(this@HomeActivity, R.raw.bless, 1)))
+        add(SoundItem(R.drawable.fly,
+                R.raw.fly_spell,
+                R.string.fly,
+                soundPool.load(this@HomeActivity, R.raw.fly_spell, 1)))
     })
 
     private fun createBattleCategory() = SoundboardCategory(getString(R.string.battle_category), SoundItems().apply {
@@ -79,6 +83,10 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.fear,
                 R.string.fear,
                 soundPool.load(this@HomeActivity, R.raw.fear, 1)))
+        add(SoundItem(R.drawable.double_damage,
+                R.raw.double_damage,
+                R.string.double_damage,
+                soundPool.load(this@HomeActivity, R.raw.double_damage, 1)))
         add(SoundItem(R.drawable.battle,
                 R.raw.battle_one,
                 R.string.battle_one,
@@ -263,7 +271,11 @@ class HomeActivity : SoundboardActivity() {
                 soundPool.load(this@HomeActivity, R.raw.resources7, 1)))
     })
 
-    override fun getSoundPoolUsage() = USAGE_MEDIA
+    override fun getSoundPoolUsage() = USAGE_GAME
 
-    override fun getSoundPoolContentType() = CONTENT_TYPE_MUSIC
+    override fun getSoundPoolContentType() = CONTENT_TYPE_SONIFICATION
+
+    override fun getBlurRadius() = 5
+
+    override fun getClickToAdsCount() = Random().nextInt(5) + 9
 }

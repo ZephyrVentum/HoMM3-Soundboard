@@ -20,6 +20,7 @@
     <string name="fortune">Fortune</string>
     <string name="resurrection">Resurrection</string>
     <string name="bless">Bless</string>
+    <string name="fly">Fly</string>
     <!--Game-->
     <string name="defend_town">Defend</string>
     <string name="lvl_up">Level Up</string>
@@ -57,6 +58,7 @@
     <string name="good_luck">Luck</string>
     <string name="death_cloud">Death Cloud</string>
     <string name="fear">Fear</string>
+    <string name="double_damage">Double Damage</string>
     <string name="battle_one">Battle 1</string>
     <string name="battle_two">Battle 2</string>
     <string name="battle_three">Battle 3</string>
