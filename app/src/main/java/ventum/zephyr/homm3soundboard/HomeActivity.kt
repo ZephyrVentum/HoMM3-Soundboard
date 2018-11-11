@@ -1,6 +1,7 @@
 package ventum.zephyr.homm3soundboard
 
-import android.media.AudioAttributes.*
+import android.media.AudioAttributes.CONTENT_TYPE_SONIFICATION
+import android.media.AudioAttributes.USAGE_GAME
 import ventum.zephyr.soundboardtemplate.model.SoundItem
 import ventum.zephyr.soundboardtemplate.model.SoundItems
 import ventum.zephyr.soundboardtemplate.model.SoundboardCategory
@@ -60,6 +61,18 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.fly_spell,
                 R.string.fly,
                 soundPool.load(this@HomeActivity, R.raw.fly_spell, 1)))
+        add(SoundItem(R.drawable.cure,
+                R.raw.cure,
+                R.string.cure,
+                soundPool.load(this@HomeActivity, R.raw.cure, 1)))
+        add(SoundItem(R.drawable.frost_ring,
+                R.raw.frost_ring,
+                R.string.frost_ring,
+                soundPool.load(this@HomeActivity, R.raw.frost_ring, 1)))
+        add(SoundItem(R.drawable.implosion,
+                R.raw.implosion,
+                R.string.implosion,
+                soundPool.load(this@HomeActivity, R.raw.implosion, 1)))
     })
 
     private fun createBattleCategory() = SoundboardCategory(getString(R.string.battle_category), SoundItems().apply {
@@ -87,6 +100,22 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.double_damage,
                 R.string.double_damage,
                 soundPool.load(this@HomeActivity, R.raw.double_damage, 1)))
+        add(SoundItem(R.drawable.dendroid,
+                R.raw.dendroid,
+                R.string.dendroid,
+                soundPool.load(this@HomeActivity, R.raw.dendroid, 1)))
+        add(SoundItem(R.drawable.ghost_dragon,
+                R.raw.ghost_dragon,
+                R.string.ghost_dragon,
+                soundPool.load(this@HomeActivity, R.raw.ghost_dragon, 1)))
+        add(SoundItem(R.drawable.frost_elem,
+                R.raw.ice_elem,
+                R.string.ice_elem,
+                soundPool.load(this@HomeActivity, R.raw.ice_elem, 1)))
+        add(SoundItem(R.drawable.rust_dragon,
+                R.raw.rust_dragon,
+                R.string.rust_dragon,
+                soundPool.load(this@HomeActivity, R.raw.rust_dragon, 1)))
         add(SoundItem(R.drawable.battle,
                 R.raw.battle_one,
                 R.string.battle_one,
@@ -241,6 +270,10 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.artifact,
                 R.string.artifact,
                 soundPool.load(this@HomeActivity, R.raw.artifact, 1)))
+        add(SoundItem(R.drawable.chest,
+                R.raw.chest,
+                R.string.chest,
+                soundPool.load(this@HomeActivity, R.raw.chest, 1)))
         add(SoundItem(R.drawable.resources,
                 R.raw.resources1,
                 R.string.resources,

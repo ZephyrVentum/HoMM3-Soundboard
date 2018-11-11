@@ -21,6 +21,9 @@
     <string name="resurrection">Resurrection</string>
     <string name="bless">Bless</string>
     <string name="fly">Fly</string>
+    <string name="cure">Cure</string>
+    <string name="frost_ring">Frost Ring</string>
+    <string name="implosion">Implosion</string>
     <!--Game-->
     <string name="defend_town">Defend</string>
     <string name="lvl_up">Level Up</string>
@@ -31,6 +34,9 @@
     <string name="new_month">New Month</string>
     <string name="chat">Chat</string>
     <string name="system">System</string>
+    <string name="grail">Grail</string>
+    <!--Map-->
+    <string name="chest">Chest</string>
     <string name="mill">Mill</string>
     <string name="whirlpool">Whirlpool</string>
     <string name="dragon_utopia">Dragon Utopia</string>
@@ -51,7 +57,6 @@
     <string name="guarded">Guarded</string>
     <string name="temple">Temple</string>
     <string name="artifact">Artifact</string>
-    <string name="grail">Grail</string>
     <!--Battle-->
     <string name="bad_morale">Dismoral</string>
     <string name="good_morale">Morale</string>
@@ -59,6 +64,10 @@
     <string name="death_cloud">Death Cloud</string>
     <string name="fear">Fear</string>
     <string name="double_damage">Double Damage</string>
+    <string name="dendroid">Dendroid</string>
+    <string name="rust_dragon">Rust Dragon</string>
+    <string name="ghost_dragon">Ghost Dragon</string>
+    <string name="ice_elem">Ice Elemental</string>
     <string name="battle_one">Battle 1</string>
     <string name="battle_two">Battle 2</string>
     <string name="battle_three">Battle 3</string>
