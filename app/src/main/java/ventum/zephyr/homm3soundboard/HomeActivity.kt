@@ -73,6 +73,26 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.implosion,
                 R.string.implosion,
                 soundPool.load(this@HomeActivity, R.raw.implosion, 1)))
+        add(SoundItem(R.drawable.meteor,
+                R.raw.meteor,
+                R.string.meteor,
+                soundPool.load(this@HomeActivity, R.raw.meteor, 1)))
+        add(SoundItem(R.drawable.shield,
+                R.raw.shield,
+                R.string.shield,
+                soundPool.load(this@HomeActivity, R.raw.shield, 1)))
+        add(SoundItem(R.drawable.slow,
+                R.raw.slow,
+                R.string.slow,
+                soundPool.load(this@HomeActivity, R.raw.slow, 1)))
+        add(SoundItem(R.drawable.stone_skin,
+                R.raw.stone_skin,
+                R.string.stone_skin,
+                soundPool.load(this@HomeActivity, R.raw.stone_skin, 1)))
+        add(SoundItem(R.drawable.view,
+                R.raw.view,
+                R.string.view,
+                soundPool.load(this@HomeActivity, R.raw.view, 1)))
     })
 
     private fun createBattleCategory() = SoundboardCategory(getString(R.string.battle_category), SoundItems().apply {
@@ -116,6 +136,10 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.rust_dragon,
                 R.string.rust_dragon,
                 soundPool.load(this@HomeActivity, R.raw.rust_dragon, 1)))
+        add(SoundItem(R.drawable.first_aid_tent,
+                R.raw.firstaidtent,
+                R.string.first_aid,
+                soundPool.load(this@HomeActivity, R.raw.firstaidtent, 1)))
         add(SoundItem(R.drawable.battle,
                 R.raw.battle_one,
                 R.string.battle_one,
@@ -191,6 +215,10 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.system,
                 R.string.system,
                 soundPool.load(this@HomeActivity, R.raw.system, 1)))
+        add(SoundItem(R.drawable.landing,
+                R.raw.landing,
+                R.string.landing,
+                soundPool.load(this@HomeActivity, R.raw.landing, 1)))
     })
 
     private fun createMapCategory() = SoundboardCategory(getString(R.string.map_category), SoundItems().apply {

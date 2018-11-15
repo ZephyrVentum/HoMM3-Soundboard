@@ -24,6 +24,11 @@
     <string name="cure">Cure</string>
     <string name="frost_ring">Frost Ring</string>
     <string name="implosion">Implosion</string>
+    <string name="shield">Shield</string>
+    <string name="slow">Slow</string>
+    <string name="stone_skin">Stone Skin</string>
+    <string name="view">View</string>
+    <string name="meteor">Meteor Shower</string>
     <!--Game-->
     <string name="defend_town">Defend</string>
     <string name="lvl_up">Level Up</string>
@@ -35,6 +40,7 @@
     <string name="chat">Chat</string>
     <string name="system">System</string>
     <string name="grail">Grail</string>
+    <string name="landing">Landing</string>
     <!--Map-->
     <string name="chest">Chest</string>
     <string name="mill">Mill</string>
@@ -68,6 +74,7 @@
     <string name="rust_dragon">Rust Dragon</string>
     <string name="ghost_dragon">Ghost Dragon</string>
     <string name="ice_elem">Ice Elemental</string>
+    <string name="first_aid">First Aid</string>
     <string name="battle_one">Battle 1</string>
     <string name="battle_two">Battle 2</string>
     <string name="battle_three">Battle 3</string>
