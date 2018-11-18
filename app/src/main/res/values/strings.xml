@@ -33,6 +33,8 @@
     <string name="defend_town">Defend</string>
     <string name="lvl_up">Level Up</string>
     <string name="victory_battle">Victory</string>
+    <string name="lose_battle">Lose</string>
+    <string name="retreat_battle">Retreat</string>
     <string name="build_town">Build</string>
     <string name="new_day">New Day</string>
     <string name="new_week">New Week</string>

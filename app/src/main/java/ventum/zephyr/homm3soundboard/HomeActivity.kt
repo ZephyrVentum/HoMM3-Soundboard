@@ -183,6 +183,14 @@ class HomeActivity : SoundboardActivity() {
                 R.raw.victory_sound,
                 R.string.victory_battle,
                 soundPool.load(this@HomeActivity, R.raw.victory_sound, 1)))
+        add(SoundItem(R.drawable.lose_battle,
+                R.raw.lose_battle,
+                R.string.lose_battle,
+                soundPool.load(this@HomeActivity, R.raw.lose_battle, 1)))
+        add(SoundItem(R.drawable.retreat_battle,
+                R.raw.retreat_battle,
+                R.string.retreat_battle,
+                soundPool.load(this@HomeActivity, R.raw.retreat_battle, 1)))
         add(SoundItem(R.drawable.new_day,
                 R.raw.new_day,
                 R.string.new_day,

@@ -9,7 +9,7 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'com.android.application'
 
 android {
-    def version = 7
+    def version = 8
     compileSdkVersion 28
 
     defaultConfig {
