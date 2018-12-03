@@ -39,46 +39,27 @@
     <string name="frenzy">Frenzy</string>
     <string name="hypnotiz">Hypnotize</string>
     <string name="iceray">Ice Bolt</string>
-
-    <string name="button">Click</string>
-    <string name="cavehead">Cave Head</string>
-
-    <string name="cstletown">Castle</string>
-
-    <string name="deathstr">Death Stare</string>
-    <string name="digsound">Dig</string>
-
-    <string name="drainlif">Drain Life</string>
-
-    <string name="dungeon">Dungeon</string>
-    <string name="elemtown">Conflux</string>
-
-    <string name="fireshld">Fire Shield</string>
-
-    <string name="fortresstown">Fortress</string>
-
-    <string name="infernotown">Inferno</string>
-
-    <string name="landkill">Land Mine</string>
-    <string name="landmine">Land Mine</string>
-    <string name="lightblt">Light Bolt</string>
-    <string name="magicblt">Magic bolt</string>
-    <string name="magicres">Magic resistance</string>
     <string name="mirth">Mirth</string>
-    <string name="mystery">Mystery</string>
-    <string name="necrotown">Necropolis</string>
-    <string name="paralyze">Paralyze</string>
-    <string name="poison">Poison</string>
     <string name="prayer">Prayer</string>
     <string name="precison">Precision</string>
+    <string name="lightblt">Light Bolt</string>
+    <string name="magicblt">Magic bolt</string>
     <string name="earth_protection">Earth Protection</string>
-    <string name="rampart">Rampart</string>
     <string name="slayer">Slayer</string>
     <string name="sorrow">Sorrow</string>
-    <string name="store">Store</string>
-    <string name="stronghold">Stronghold</string>
     <string name="summboat">Summon Boat</string>
     <string name="sumnelm">Summon Elemental</string>
+    <string name="landmine">Land Mine</string>
+
+    <!--Town-->
+    <string name="cstletown">Castle</string>
+    <string name="dungeon">Dungeon</string>
+    <string name="elemtown">Conflux</string>
+    <string name="infernotown">Inferno</string>
+    <string name="necrotown">Necropolis</string>
+    <string name="rampart">Rampart</string>
+    <string name="stronghold">Stronghold</string>
+    <string name="fortresstown">Fortress</string>
     <string name="towertown">Tower</string>
 
     <!--Game-->
@@ -95,6 +76,9 @@
     <string name="system">System</string>
     <string name="grail">Grail</string>
     <string name="landing">Landing</string>
+    <string name="button">Click</string>
+    <string name="digsound">Dig</string>
+
     <!--Map-->
     <string name="chest">Chest</string>
     <string name="mill">Mill</string>
@@ -113,10 +97,14 @@
     <string name="mercenary_camp">Mercenary Camp</string>
     <string name="obelisk">Obelisk</string>
     <string name="quest">Quest</string>
+    <string name="cavehead">Cave Head</string>
+    <string name="mystery">Mystery</string>
+    <string name="store">Store</string>
     <string name="resources">Resources</string>
     <string name="guarded">Guarded</string>
     <string name="temple">Temple</string>
     <string name="artifact">Artifact</string>
+
     <!--Battle-->
     <string name="bad_morale">Dismoral</string>
     <string name="good_morale">Morale</string>
@@ -129,6 +117,13 @@
     <string name="ghost_dragon">Ghost Dragon</string>
     <string name="ice_elem">Ice Elemental</string>
     <string name="first_aid">First Aid</string>
+    <string name="deathstr">Death Stare</string>
+    <string name="drainlif">Drain Life</string>
+    <string name="fireshld">Fire Shield</string>
+    <string name="landkill">Land Mine</string>
+    <string name="magicres">Magic resistance</string>
+    <string name="paralyze">Paralyze</string>
+    <string name="poison">Poison</string>
     <string name="battle_one">Battle 1</string>
     <string name="battle_two">Battle 2</string>
     <string name="battle_three">Battle 3</string>
