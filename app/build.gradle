@@ -9,7 +9,7 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'com.android.application'
 
 android {
-    def version = 12
+    def version = 13
     compileSdkVersion 28
 
     defaultConfig {
@@ -17,7 +17,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode version
-        versionName "1.1.2"
+        versionName "1.1.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
