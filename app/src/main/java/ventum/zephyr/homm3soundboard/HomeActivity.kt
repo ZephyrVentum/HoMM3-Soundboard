@@ -14,10 +14,11 @@ class HomeActivity : SoundboardActivity() {
         add(createBattleCategory())
         add(createMapCategory())
         add(createGameCategory())
+        add(createTownCategory())
     }
 
     private fun createSpellsCategory() = SoundboardCategory(getString(R.string.spell_category), SoundItems().apply {
-        add(SoundItem(R.drawable.antimagic, R.raw.antimagic_sound, R.string.antimagic_spell))
+        add(SoundItem(R.drawable.antimagic, R.raw.towertown, R.string.antimagic_spell, true))
         add(SoundItem(R.drawable.bloodlust, R.raw.bloodlust_sound, R.string.bloodlust_speel))
         add(SoundItem(R.drawable.blind, R.raw.blind_sound, R.string.blind_spell))
         add(SoundItem(R.drawable.curse, R.raw.curse_sound, R.string.curse_spell))
@@ -138,11 +139,23 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.dig, R.raw.digsound, R.string.digsound))
     })
 
-    override fun getSoundPoolUsage() = USAGE_GAME
+    private fun createTownCategory() = SoundboardCategory(getString(R.string.town_category), SoundItems().apply {
+        add(SoundItem(R.drawable.castle, R.raw.cstletown, R.string.cstletown, true))
+        add(SoundItem(R.drawable.rampart, R.raw.rampart, R.string.rampart, true))
+        add(SoundItem(R.drawable.tower, R.raw.towertown, R.string.towertown, true))
+        add(SoundItem(R.drawable.inferno, R.raw.infernotown, R.string.infernotown, true))
+        add(SoundItem(R.drawable.necropolis, R.raw.necrotown, R.string.necrotown, true))
+        add(SoundItem(R.drawable.dungeon, R.raw.dungeon, R.string.dungeon, true))
+        add(SoundItem(R.drawable.stronghold, R.raw.stronghold, R.string.stronghold, true))
+        add(SoundItem(R.drawable.fortress, R.raw.fortresstown, R.string.fortresstown, true))
+        add(SoundItem(R.drawable.conflux, R.raw.elemtown, R.string.elemtown, true))
+    })
 
-    override fun getSoundPoolContentType() = CONTENT_TYPE_SONIFICATION
+override fun getSoundPoolUsage() = USAGE_GAME
 
-    override fun getBlurRadius() = 5
+override fun getSoundPoolContentType() = CONTENT_TYPE_SONIFICATION
 
-    override fun getClickToAdsCount() = Random().nextInt(5) + 9
+override fun getBlurRadius() = 5
+
+override fun getClickToAdsCount() = Random().nextInt(5) + 9
 }

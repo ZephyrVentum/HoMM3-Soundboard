@@ -9,6 +9,8 @@
     <string name="battle_category">Battle</string>
     <string name="map_category">Map</string>
     <string name="game_category">Game</string>
+    <string name="town_category">Town</string>
+
     <!--Spells-->
     <string name="blind_spell">Blind</string>
     <string name="bloodlust_speel">Bloodlust</string>
