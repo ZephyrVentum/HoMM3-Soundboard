@@ -57,7 +57,7 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.summon_boat, R.raw.summboat, R.string.summboat))
         add(SoundItem(R.drawable.summon_elem, R.raw.sumnelm, R.string.sumnelm))
         add(SoundItem(R.drawable.landmine_spell, R.raw.landmine, R.string.landmine))
-    })
+    }, getString(R.string.admob_spell_banner))
 
     private fun createBattleCategory() = SoundboardCategory(getString(R.string.battle_category), SoundItems().apply {
         add(SoundItem(R.drawable.bad_morale, R.raw.bad_morale_sound, R.string.bad_morale))
@@ -90,7 +90,7 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.combat, R.raw.combat02, R.string.combat_2, true))
         add(SoundItem(R.drawable.combat, R.raw.combat03, R.string.combat_3, true))
         add(SoundItem(R.drawable.combat, R.raw.combat04, R.string.combat_4, true))
-    })
+    }, getString(R.string.admob_battle_banner))
 
     private fun createMapCategory() = SoundboardCategory(getString(R.string.map_category), SoundItems().apply {
         add(SoundItem(R.drawable.mill, R.raw.mill_sound, R.string.mill))
@@ -123,7 +123,7 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.resources, R.raw.resources5, R.string.resources))
         add(SoundItem(R.drawable.resources, R.raw.resources6, R.string.resources))
         add(SoundItem(R.drawable.resources, R.raw.resources7, R.string.resources))
-    })
+    }, getString(R.string.abmob_map_banner))
 
     private fun createGameCategory() = SoundboardCategory(getString(R.string.game_category), SoundItems().apply {
         add(SoundItem(R.drawable.img_defend, R.raw.defend_sound, R.string.defend_town))
@@ -142,7 +142,7 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.click_btn, R.raw.button, R.string.button))
         add(SoundItem(R.drawable.dig, R.raw.digsound, R.string.digsound))
         add(SoundItem(R.drawable.main_menu, R.raw.main_menu, R.string.main_menu, true))
-    })
+    }, getString(R.string.abmob_game_banner))
 
     private fun createTownCategory() = SoundboardCategory(getString(R.string.town_category), SoundItems().apply {
         add(SoundItem(R.drawable.castle, R.raw.cstletown, R.string.cstletown, true))
@@ -154,7 +154,7 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.stronghold, R.raw.stronghold, R.string.stronghold, true))
         add(SoundItem(R.drawable.fortress, R.raw.fortresstown, R.string.fortresstown, true))
         add(SoundItem(R.drawable.conflux, R.raw.elemtown, R.string.elemtown, true))
-    })
+    }, getString(R.string.abmob_town_banner))
 
     override fun getSoundPoolUsage() = USAGE_GAME
 
