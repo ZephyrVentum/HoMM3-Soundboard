@@ -86,6 +86,10 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.battle, R.raw.battle_six, R.string.battle_six))
         add(SoundItem(R.drawable.battle, R.raw.battle_seven, R.string.battle_seven))
         add(SoundItem(R.drawable.battle, R.raw.battle_eight, R.string.battle_eigth))
+        add(SoundItem(R.drawable.combat, R.raw.combat01, R.string.combat_1, true))
+        add(SoundItem(R.drawable.combat, R.raw.combat02, R.string.combat_2, true))
+        add(SoundItem(R.drawable.combat, R.raw.combat03, R.string.combat_3, true))
+        add(SoundItem(R.drawable.combat, R.raw.combat04, R.string.combat_4, true))
     })
 
     private fun createMapCategory() = SoundboardCategory(getString(R.string.map_category), SoundItems().apply {
@@ -137,6 +141,7 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.landing, R.raw.landing, R.string.landing))
         add(SoundItem(R.drawable.click_btn, R.raw.button, R.string.button))
         add(SoundItem(R.drawable.dig, R.raw.digsound, R.string.digsound))
+        add(SoundItem(R.drawable.main_menu, R.raw.main_menu, R.string.main_menu, true))
     })
 
     private fun createTownCategory() = SoundboardCategory(getString(R.string.town_category), SoundItems().apply {
@@ -151,11 +156,11 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.conflux, R.raw.elemtown, R.string.elemtown, true))
     })
 
-override fun getSoundPoolUsage() = USAGE_GAME
+    override fun getSoundPoolUsage() = USAGE_GAME
 
-override fun getSoundPoolContentType() = CONTENT_TYPE_SONIFICATION
+    override fun getSoundPoolContentType() = CONTENT_TYPE_SONIFICATION
 
-override fun getBlurRadius() = 5
+    override fun getBlurRadius() = 5
 
-override fun getClickToAdsCount() = Random().nextInt(5) + 9
+    override fun getClickToAdsCount() = Random().nextInt(5) + 9
 }

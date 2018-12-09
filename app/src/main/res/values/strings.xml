@@ -4,6 +4,13 @@
     <string name="admob_banner_unit_id">ca-app-pub-9581992838845527/4656969778</string>
     <string name="admob_interstitial_unit_id">ca-app-pub-9581992838845527/4820621300</string>
     <string name="share_text">Look at this fun! The best Heroes of Might and Magic 3 soundboard ever!\nhttps://play.google.com/store/apps/details?id=ventum.zephyr.homm3soundboard</string>
+
+    <string name="admob_spell_banner">ca-app-pub-9581992838845527/4656969778</string>
+    <string name="admob_battle_banner">ca-app-pub-9581992838845527/3282378544</string>
+    <string name="abmob_map_banner">ca-app-pub-9581992838845527/8834088120</string>
+    <string name="abmob_game_banner">ca-app-pub-9581992838845527/7137863070</string>
+    <string name="abmob_town_banner">ca-app-pub-9581992838845527/4866922959</string>
+
     <!-- Categories -->
     <string name="spell_category">Spell</string>
     <string name="battle_category">Battle</string>
@@ -53,60 +60,6 @@
     <string name="sumnelm">Summon Elemental</string>
     <string name="landmine">Land Mine</string>
 
-    <!--Town-->
-    <string name="cstletown">Castle</string>
-    <string name="dungeon">Dungeon</string>
-    <string name="elemtown">Conflux</string>
-    <string name="infernotown">Inferno</string>
-    <string name="necrotown">Necropolis</string>
-    <string name="rampart">Rampart</string>
-    <string name="stronghold">Stronghold</string>
-    <string name="fortresstown">Fortress</string>
-    <string name="towertown">Tower</string>
-
-    <!--Game-->
-    <string name="defend_town">Defend</string>
-    <string name="lvl_up">Level Up</string>
-    <string name="victory_battle">Victory</string>
-    <string name="lose_battle">Lose</string>
-    <string name="retreat_battle">Retreat</string>
-    <string name="build_town">Build</string>
-    <string name="new_day">New Day</string>
-    <string name="new_week">New Week</string>
-    <string name="new_month">New Month</string>
-    <string name="chat">Chat</string>
-    <string name="system">System</string>
-    <string name="grail">Grail</string>
-    <string name="landing">Landing</string>
-    <string name="button">Click</string>
-    <string name="digsound">Dig</string>
-
-    <!--Map-->
-    <string name="chest">Chest</string>
-    <string name="mill">Mill</string>
-    <string name="whirlpool">Whirlpool</string>
-    <string name="dragon_utopia">Dragon Utopia</string>
-    <string name="faerie_ring">Faerie Ring</string>
-    <string name="magic_well">Magic Well</string>
-    <string name="flag_mine">Mine</string>
-    <string name="learning_stone">Learning Stone</string>
-    <string name="lighthouse">Lighthouse</string>
-    <string name="lepricon">Lepricon</string>
-    <string name="idol_of_fortune">Idol of Fortune</string>
-    <string name="refugee_camp">Refugee Camp</string>
-    <string name="crypt">Crypt</string>
-    <string name="fountain_of_youth">Fountain of Youth</string>
-    <string name="mercenary_camp">Mercenary Camp</string>
-    <string name="obelisk">Obelisk</string>
-    <string name="quest">Quest</string>
-    <string name="cavehead">Cave Head</string>
-    <string name="mystery">Mystery</string>
-    <string name="store">Store</string>
-    <string name="resources">Resources</string>
-    <string name="guarded">Guarded</string>
-    <string name="temple">Temple</string>
-    <string name="artifact">Artifact</string>
-
     <!--Battle-->
     <string name="bad_morale">Dismoral</string>
     <string name="good_morale">Morale</string>
@@ -134,4 +87,63 @@
     <string name="battle_six">Battle 6</string>
     <string name="battle_seven">Battle 7</string>
     <string name="battle_eigth">Battle 8</string>
+    <string name="combat_1">Combat 1</string>
+    <string name="combat_2">Combat 2</string>
+    <string name="combat_3">Combat 3</string>
+    <string name="combat_4">Combat 4</string>
+
+    <!--Map-->
+    <string name="chest">Chest</string>
+    <string name="mill">Mill</string>
+    <string name="whirlpool">Whirlpool</string>
+    <string name="dragon_utopia">Dragon Utopia</string>
+    <string name="faerie_ring">Faerie Ring</string>
+    <string name="magic_well">Magic Well</string>
+    <string name="flag_mine">Mine</string>
+    <string name="learning_stone">Learning Stone</string>
+    <string name="lighthouse">Lighthouse</string>
+    <string name="lepricon">Lepricon</string>
+    <string name="idol_of_fortune">Idol of Fortune</string>
+    <string name="refugee_camp">Refugee Camp</string>
+    <string name="crypt">Crypt</string>
+    <string name="fountain_of_youth">Fountain of Youth</string>
+    <string name="mercenary_camp">Mercenary Camp</string>
+    <string name="obelisk">Obelisk</string>
+    <string name="quest">Quest</string>
+    <string name="cavehead">Cave Head</string>
+    <string name="mystery">Mystery</string>
+    <string name="store">Store</string>
+    <string name="resources">Resources</string>
+    <string name="guarded">Guarded</string>
+    <string name="temple">Temple</string>
+    <string name="artifact">Artifact</string>
+
+    <!--Game-->
+    <string name="defend_town">Defend</string>
+    <string name="lvl_up">Level Up</string>
+    <string name="victory_battle">Victory</string>
+    <string name="lose_battle">Lose</string>
+    <string name="retreat_battle">Retreat</string>
+    <string name="build_town">Build</string>
+    <string name="new_day">New Day</string>
+    <string name="new_week">New Week</string>
+    <string name="new_month">New Month</string>
+    <string name="chat">Chat</string>
+    <string name="system">System</string>
+    <string name="grail">Grail</string>
+    <string name="landing">Landing</string>
+    <string name="button">Click</string>
+    <string name="digsound">Dig</string>
+    <string name="main_menu">Main Theme</string>
+
+    <!--Town-->
+    <string name="cstletown">Castle</string>
+    <string name="dungeon">Dungeon</string>
+    <string name="elemtown">Conflux</string>
+    <string name="infernotown">Inferno</string>
+    <string name="necrotown">Necropolis</string>
+    <string name="rampart">Rampart</string>
+    <string name="stronghold">Stronghold</string>
+    <string name="fortresstown">Fortress</string>
+    <string name="towertown">Tower</string>
 </resources>
