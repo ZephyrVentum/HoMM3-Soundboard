@@ -18,7 +18,7 @@ class HomeActivity : SoundboardActivity() {
     }
 
     private fun createSpellsCategory() = SoundboardCategory(getString(R.string.spell_category), SoundItems().apply {
-        add(SoundItem(R.drawable.antimagic, R.raw.towertown, R.string.antimagic_spell, true))
+        add(SoundItem(R.drawable.antimagic, R.raw.antimagic_sound, R.string.antimagic_spell, true))
         add(SoundItem(R.drawable.bloodlust, R.raw.bloodlust_sound, R.string.bloodlust_speel))
         add(SoundItem(R.drawable.blind, R.raw.blind_sound, R.string.blind_spell))
         add(SoundItem(R.drawable.curse, R.raw.curse_sound, R.string.curse_spell))
@@ -154,6 +154,7 @@ class HomeActivity : SoundboardActivity() {
         add(SoundItem(R.drawable.stronghold, R.raw.stronghold, R.string.stronghold, true))
         add(SoundItem(R.drawable.fortress, R.raw.fortresstown, R.string.fortresstown, true))
         add(SoundItem(R.drawable.conflux, R.raw.elemtown, R.string.elemtown, true))
+        add(SoundItem(R.drawable.cove, R.raw.cove, R.string.cove, true))
     }, getString(R.string.abmob_town_banner))
 
     override fun getSoundPoolUsage() = USAGE_GAME
