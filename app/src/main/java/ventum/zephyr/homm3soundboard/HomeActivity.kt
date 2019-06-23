@@ -161,7 +161,5 @@ class HomeActivity : SoundboardActivity() {
 
     override fun getSoundPoolContentType() = CONTENT_TYPE_SONIFICATION
 
-    override fun getBlurRadius() = 5
-
-    override fun getClickToAdsCount() = Random().nextInt(5) + 9
+    override fun getClickToAdsCount() = Random().nextInt(6) + 10
 }
